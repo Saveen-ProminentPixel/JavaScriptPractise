@@ -1,0 +1,15 @@
+Iterable:
+
+Technical definition - Objects that implement the "iterable" protocol and have an @@iterator method (i.e. Symbol.iterator)
+Simple definition - Objects where you can use for-of loop.
+
+Not every iterable is an array!
+Other iterable examples: NodeList, String, Map, Set
+
+
+Array-like Object:
+
+Definition - Objects that have a length property and use indexes to access items.
+
+Not every array-like object is an array!
+Other array-like objects example: NodeList, String
