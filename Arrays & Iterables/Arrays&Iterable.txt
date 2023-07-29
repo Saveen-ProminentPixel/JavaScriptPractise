@@ -13,3 +13,20 @@ Definition - Objects that have a length property and use indexes to access items
 
 Not every array-like object is an array!
 Other array-like objects example: NodeList, String
+
+
+Maps & Sets:
+
+Arrays -> store data of any kind and length
+       -> iterable, also many special array methods available
+       -> order is guaranteed, duplicate are allowed, zero-based index to access elements
+
+Sets   -> store data of any kind and length
+       -> iterable, also some special set methods available
+       -> Order is NOT guaranteed, duplicates are NOT allowed, no index-based access
+
+Maps   -> store key-value data of any kind and length, any key values are allowed
+       -> iterable, also some special map methods available
+       -> Order is guaranteed, duplicate keys are NOT allowed, key-based access
+
+
